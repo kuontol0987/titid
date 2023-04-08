@@ -19,7 +19,7 @@ import time
 import os
 os.system('color ' +random.choice(['B'])+ " & cls & title Tools DDoS Used By CovidGT [ What Password ]")
 password = input("[ + ] Password : ")
-if password == "CovidGans":
+if password == "bau":
     print("correct password")
     time.sleep(2)
 else :
@@ -176,15 +176,8 @@ elif sys.platform.startswith("freebsd"):
 else:
    os.system('color ' +random.choice(['B'])+ " & cls & title Tools DDoS Used By CovidGT V6 [ DDoS Attack ]")
 print("=============================================================================")
-print("░█████╗░░█████╗░██╗░░░██╗██╗██████╗░░██████╗░████████╗  ██╗░░░██╗░█████╗░")
-print("██╔══██╗██╔══██╗██║░░░██║██║██╔══██╗██╔════╝░╚══██╔══╝  ██║░░░██║██╔═══╝░")
-print("██║░░╚═╝██║░░██║╚██╗░██╔╝██║██║░░██║██║░░██╗░░░░██║░░░  ╚██╗░██╔╝██████╗░")
-print("██║░░██╗██║░░██║░╚████╔╝░██║██║░░██║██║░░╚██╗░░░██║░░░  ░╚████╔╝░██╔══██╗")
-print("╚█████╔╝╚█████╔╝░░╚██╔╝░░██║██████╔╝╚██████╔╝░░░██║░░░  ░░╚██╔╝░░╚█████╔╝")
-print("░╚════╝░░╚════╝░░░░╚═╝░░░╚═╝╚═════╝░░╚═════╝░░░░╚═╝░░░  ░░░╚═╝░░░░╚════╝░")
-print("=============================================================================")
-print("[ + ] Tool Coder By : CovidGT")
-print("[ + ] Nomor Whatsapp: 083862715422")
+print("[ + ] Tool Coder By : Bau")
+print("[ + ] Nomor Whatsapp: XXXXXXXX")
 print("==========================")
 ip = str(input("[ / ] IP Target? : "))
 port = int(input("[ / ] Port? : "))
